@@ -28,9 +28,3 @@
   repo: blockbuilder
   img: /static/assets/img/landing/block.png
   desc: Open-source Python application to build, edit and visualize sets of blocks.
-
-# - name: Google
-#   i18n: google
-#   url: https://google.com
-#   img: /static/assets/img/landing/google.png
-#   desc: This is another project.
