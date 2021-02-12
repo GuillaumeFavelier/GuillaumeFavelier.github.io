@@ -1,24 +1,24 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+- name: PyVista
+  i18n: pyvista
+  gh_user: pyvista
+  repo: pyvista
+  img: /static/assets/img/landing/pyvista.png
+  desc: 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)
 
 - name: MNE-Python
   i18n: mne-python
-  gh_user: mne-python
-  repo: mne-tools
+  gh_user: mne-tools
+  repo: mne-python
   img: /static/assets/img/landing/mne.png
   desc: MEG + EEG Analysis and Visualization
 
 - name: TTK
   i18n: ttk
-  gh_user: ttk
-  repo: topology-tool-kit
+  gh_user: topology-tool-kit
+  repo: ttk
   img: /static/assets/img/landing/ttk.png
   desc: Topological Data Analysis and Visualization
 
