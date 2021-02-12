@@ -2,8 +2,11 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: landing/header_one.png
-  title: BlockBuilder
+- src: landing/header_1.png
+  title: Brain
 
-- src: landing/header_two.png
-  title: second banner image
+- src: landing/header_2.png
+  title: PyVista
+
+- src: landing/header_3.png
+  title: BlockBuilder
