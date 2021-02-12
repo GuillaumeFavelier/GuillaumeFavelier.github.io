@@ -2,29 +2,29 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
     detail: INRIA
-    i18n: inria
+    i18n: company_name
   desc:
-    detail: I worked at Company A ...
-    i18n: company_a_desc
+    detail: Help with the transition of the 3D backend to modern tools.
+    i18n: company_desc
   date:
-    detail: Apr. 2016
-    i18n: company_a_date
+    detail: Dec. 2018 - Now
+    i18n: company_date
   job:
-    detail: CTO
-    i18n: company_a_job
+    detail: Research Engineer
+    i18n: company_job
   icon: fa-plus-square
   present: true
 
 - name:
-    detail: Company B
-    i18n: company_b
+    detail: LIP6
+    i18n: company_name
   desc:
-    detail: I worked at Company B ...
-    i18n: company_b_desc
+    detail: Development of ParaView plugins specialized in TDA.
+    i18n: company_desc
   date:
-    detail: Jun. 2015
-    i18n: company_b_date
+    detail: Dec. 2015 - Nov. 2018
+    i18n: company_date
   job:
-    detail: Full Stack Developer
-    i18n: company_b_job
+    detail: Research engineer
+    i18n: company_job
   icon: fa-plus-square
