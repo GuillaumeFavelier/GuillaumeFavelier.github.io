@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: C/C++, Python, Qt, VTK, Linux, ParaView, GitHub
-percentage: 85, 70, 90, 70, 92, 70, 75,
+aspects: C/C++, Python, Qt, VTK, Linux, ParaView, GitHub, Blender
+percentage: 85, 70, 90, 70, 92, 70, 75, 30
