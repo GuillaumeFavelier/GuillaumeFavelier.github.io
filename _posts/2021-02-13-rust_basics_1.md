@@ -33,6 +33,7 @@ Or can be removed with:
 ```sh
 rustup self uninstall
 ```
+---
 
 ## Hello world
 
@@ -70,6 +71,7 @@ The following is expected:
 ```
 Hello, world!
 ```
+---
 
 ## Cargo
 
@@ -102,5 +104,4 @@ To build the optimized/release target, enter:
 ```sh
 cargo build --release
 ```
-
 ---
