@@ -9,7 +9,7 @@ tags: [Rust]
 icon: icon-html
 ---
 
-The goal of this post is to install the necessary tools to program in rust,
+The goal of this post is to learn how to install the necessary tools to program in rust,
 compile a minimal example and learn the basics of Cargo.
 
 *The following instructions are valid for Linux*
@@ -109,3 +109,6 @@ cargo build --release
 ## Source code
 
 Material for this post is available on [GitHub](https://github.com/GuillaumeFavelier/blog_rust_basics_1).
+---
+
+*[Go to the next article.](https://guillaumefavelier.github.io/rust/2021/02/13/rust_basics_1.html)*
