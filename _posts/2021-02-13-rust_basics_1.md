@@ -12,7 +12,7 @@ icon: icon-html
 The goal of this post is to learn how to install the **necessary tools** to program in Rust,
 compile a **minimal example** and learn the basics of **Cargo**.
 
-*The following instructions are valid for Linux or macOS. For Windows, please refer to the [Rust documentation](https://doc.rust-lang.org/book/ch01-01-installation.html)*
+*The following instructions are valid for Linux or macOS. For Windows, please refer to the [Rust documentation](https://doc.rust-lang.org/book/ch01-01-installation.html).*
 
 ## Installation
 
