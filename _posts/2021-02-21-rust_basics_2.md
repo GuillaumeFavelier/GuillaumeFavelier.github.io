@@ -77,7 +77,7 @@ fn main() {
 
 ## Control Flow
 
-In Rust, branching is mainly done with the keyword `if`, the block of code that follows
+In Rust, *branching* is mainly done with the keyword `if`, the block of code that follows
 is executed only if the described condition is evaluated to `true`:
 
 ```rust
@@ -135,6 +135,62 @@ fn main() {
 >     Equal,
 > }
 > ```
+
+In Rust, it's possible to *repeat instructions* by using the keywords `for`, `while` or `loop`.
+
+The `for`-loop is very useful to iterate through a `Range` of values:
+
+```rust
+fn main() {
+    println!("Start countdown...");
+    // rev() reverse the given range
+    for number in (1..10).rev() {
+        println!("{}...", number);
+    }
+    println("Let's go!");
+}
+```
+
+Or though the items of a `Collection`:
+
+```rust
+fn main() {
+    let a = [10, 20, 30, 40, 50];
+    for (index, element) in a.iter().enumerate() {
+        println!("The item at {} is {}.", index, element);
+    }
+}
+```
+
+The `while`-loop repeats the block of code as long as the specified condition holds `true`:
+
+```rust
+fn main() {
+    let mut n: u32 = 10;
+    while n > 0 {
+      n -= 1;
+    }
+    println!("Done!");
+}
+```
+
+And finally, there is the `loop` keyword to create an infinite loop:
+
+```rust
+fn is_ready() -> bool {
+    use rand::Rng;
+    return rand::thread_rng().gen::<bool>()
+}
+
+fn main() {
+    loop {
+      println!("Work in progress...");
+      if is_ready() {
+        break; // leave the loop when the condition is met
+      }
+    }
+}
+```
 
 ---
 
