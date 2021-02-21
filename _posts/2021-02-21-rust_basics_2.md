@@ -9,7 +9,7 @@ tags: [Rust]
 icon: icon-html
 ---
 
-The goal of this post is to learn how to define a function and control execution flow.
+The goal of this post is to learn how to define a function and control instructions flow.
 
 ## Function
 
@@ -72,6 +72,9 @@ fn main() {
     println!("The secret number is {}.", secret_number);
 }
 ```
+---
+
+## Control Flow
 ---
 
 ## Source code
