@@ -30,9 +30,17 @@ in a range:
 ```rust
 fn get_secret_number(nmin: i32, nmax: i32) -> i32 {
     use rand::Rng;
+    // gen_range(low, high) is inclusive of low but exclusive of high
     return rand::thread_rng().gen_range(nmin, nmax + 1);
 }
 ```
+> `rand` is an external package so the `[dependencies]` section of the `Cargo.toml` configuration file needs
+> to be updated like so:
+> ```
+> ...
+> [dependencies]
+> rand = "0.6.0"
+> ```
 
 This function accepts two arguments called `nmin` and `nmax` of type `i32` (signed integer that takes 32 bit of space)
 and its return type is specified after the arrow `-> i32`.
@@ -44,23 +52,14 @@ can be modified as follows:
 ```rust
 fn get_secret_number(nmin: i32, nmax: i32) -> i32 {
     use rand::Rng;
-    // gen_range(low, high) is inclusive of low but exclusive of high
     rand::thread_rng().gen_range(nmin, nmax + 1)
 }
 ```
 
-> `rand` is an external package so the `[dependencies]` section of the `Cargo.toml` configuration file needs
-> to be updated like so:
-> ```
-> ...
-> [dependencies]
-> rand = "0.6.0"
-> ```
-
 Please note that in this syntax, the semicolon `;` is removed to prevent the expression to become a 
 statement.
 
-Here is a more complete example:
+Here is a complete example:
 
 ```rust
 fn get_secret_number(nmin: i32, nmax: i32) -> i32 {
