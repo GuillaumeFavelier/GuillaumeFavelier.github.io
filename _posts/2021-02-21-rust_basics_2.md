@@ -94,7 +94,7 @@ fn strip_line(line: &mut String) {
 
 Multiple instruction branches can be chained together with the keywords `else if` and `else`:
 
-```
+```rust
 fn main() {
     let secret_number = get_secret_number(1, 100);
     let guess = 50;
