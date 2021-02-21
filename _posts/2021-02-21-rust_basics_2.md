@@ -131,6 +131,6 @@ fn main() {
 ## Reference
 
 Material for this post is available on [GitHub](https://github.com/GuillaumeFavelier/blog_rust_basics_2).
-More infos on the [Rust documentation](https://doc.rust-lang.org)*
+More infos on the [Rust documentation](https://doc.rust-lang.org).
 
 *Next post available soon.*

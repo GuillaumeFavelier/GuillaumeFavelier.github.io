@@ -109,6 +109,6 @@ cargo build --release
 ## Reference
 
 Material for this post is available on [GitHub](https://github.com/GuillaumeFavelier/blog_rust_basics_1).
-More infos on the [Rust documentation](https://doc.rust-lang.org)*
+More infos on the [Rust documentation](https://doc.rust-lang.org).
 
 *[Go to the next post of the serie.](https://guillaumefavelier.github.io/rust/2021/02/21/rust_basics_2.html)*
