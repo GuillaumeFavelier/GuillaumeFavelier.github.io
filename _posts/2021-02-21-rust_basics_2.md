@@ -13,7 +13,7 @@ The goal of this post is to learn how to define a function and control logic flo
 
 ## Function
 
-A good example of a simple function is the `hello_world` project described in the previous post:
+A good example of a simple function is in the `hello_world` project described in the previous post:
 
 ```rust
 fn main() {
