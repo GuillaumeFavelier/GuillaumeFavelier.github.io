@@ -9,7 +9,7 @@ tags: [Rust]
 icon: icon-html
 ---
 
-The goal of this post is to learn how to define a function and control instructions flow.
+The goal of this post is to learn how to **define a function** and **control instructions flow**.
 
 ## Function
 
@@ -57,7 +57,7 @@ fn get_secret_number(nmin: i32, nmax: i32) -> i32 {
 ```
 
 Please note that with this syntax, the semicolon `;` is removed to prevent the expression to become a 
-statement.
+**statement** (which *does not* return a value).
 
 Here is a complete example:
 
@@ -75,6 +75,8 @@ fn main() {
 ---
 
 ## Control Flow
+
+Branching 
 ---
 
 ## Source code

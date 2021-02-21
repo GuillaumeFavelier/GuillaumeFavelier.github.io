@@ -9,8 +9,8 @@ tags: [Rust]
 icon: icon-html
 ---
 
-The goal of this post is to learn how to install the necessary tools to program in rust,
-compile a minimal example and learn the basics of Cargo.
+The goal of this post is to learn how to install the **necessary tools** to program in Rust,
+compile a **minimal example** and learn the basics of **Cargo**.
 
 *The following instructions are valid for Linux or macOS. For Windows, please refer to the [Rust documentation](https://doc.rust-lang.org/book/ch01-01-installation.html)*
 
@@ -60,7 +60,7 @@ It's possible to compile the code with:
 rustc main.rs
 ```
 
-And execute the binary:
+And execute the **binary**:
 
 ```sh
 ./main
@@ -75,7 +75,7 @@ Hello, world!
 
 ## Cargo
 
-Cargo is Rust's package manager. To check the installed version:
+Cargo is Rust's **package manager**. To check the installed version:
 
 ```sh
 cargo --version
@@ -87,8 +87,8 @@ To create a new project with Cargo, just enter:
 cargo new hello_world
 ```
 
-The command creates the project tree, initializes the Git repository
-with `.gitignore`, adds the TOML config file `Cargo.toml` and
+The command creates the project tree, initializes the **Git** repository
+with `.gitignore`, adds the **TOML** config file `Cargo.toml` and
 populates the `src` directory with a minimal `hello_world` source code.
 
 Essential commands:
@@ -110,4 +110,4 @@ cargo build --release
 
 Material for this post is available on [GitHub](https://github.com/GuillaumeFavelier/blog_rust_basics_1).
 
-*[Go to the next article.](https://guillaumefavelier.github.io/rust/2021/02/21/rust_basics_2.html)*
+*[Go to the next post of the serie.](https://guillaumefavelier.github.io/rust/2021/02/21/rust_basics_2.html)*
