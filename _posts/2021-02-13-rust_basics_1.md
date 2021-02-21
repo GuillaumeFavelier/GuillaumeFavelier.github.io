@@ -110,4 +110,4 @@ cargo build --release
 
 Material for this post is available on [GitHub](https://github.com/GuillaumeFavelier/blog_rust_basics_1).
 
-*[Go to the next article.](https://guillaumefavelier.github.io/rust/2021/02/13/rust_basics_2.html)*
+*[Go to the next article.](https://guillaumefavelier.github.io/rust/2021/02/21/rust_basics_2.html)*
