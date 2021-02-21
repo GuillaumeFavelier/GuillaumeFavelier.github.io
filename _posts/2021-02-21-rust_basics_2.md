@@ -35,7 +35,7 @@ fn get_secret_number(nmin: i32, nmax: i32) -> i32 {
 ```
 
 This function accepts two arguments called `nmin` and `nmax` of type `i32` (signed integer that takes 32 bit of space)
-and its return type is specified after the arrow `->`.
+and its return type is specified after the arrow `-> i32`.
 
 In the above example, the result is returned explicitly with `return` but in Rust, the return value of
 the function is synonymous with the value of the final expression. Meaning that `get_secret_number()`
@@ -44,6 +44,7 @@ can be modified as follows:
 ```rust
 fn get_secret_number(nmin: i32, nmax: i32) -> i32 {
     use rand::Rng;
+    // gen_range() is inclusive of nmin but exclusive of nmax
     rand::thread_rng().gen_range(nmin, nmax + 1)
 }
 ```
