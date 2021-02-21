@@ -76,7 +76,39 @@ fn main() {
 
 ## Control Flow
 
-Branching 
+In Rust, branching is mainly done with the keyword `if`, the block of code that follows
+is executed only if the described condition is evaluated to `true`:
+
+```rust
+fn strip_line(line: &mut String) {
+    // enter the code block only if the last character of the String is '\n'
+    if line.ends_with("\n") {
+        line.pop(); // remove this last character '\n'
+        // enter the code block only if the last character of the String is '\r'
+        if line.ends_with("\r") {
+          line.pop(); // and remove this last character '\r'
+        }
+    }
+}
+```
+
+Multiple instruction branches can be chained with `else if` and `else`:
+
+```
+fn main() {
+    let secret_number = get_secret_number(1, 100);
+    let guess = 50;
+    if guess < secret_number {
+        println!("The secret number is greater.");
+    }
+    else if guess > secret_number {
+        println!("The secret number is lower.");
+    }
+    else {
+        println!("Congratulations! The secret number {} is found.", guess);
+    }
+}
+```
 ---
 
 ## Source code
