@@ -9,7 +9,7 @@ tags: [Rust]
 icon: icon-html
 ---
 
-The goal of this post is to learn how to define a function and control logic flow.
+The goal of this post is to learn how to define a function and control execution flow.
 
 ## Function
 
