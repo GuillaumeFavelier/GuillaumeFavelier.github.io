@@ -109,8 +109,28 @@ fn main() {
     }
 }
 ```
+
+A particular Rust mechanic can simplify the code above. It's called **pattern matching**
+and it is based on the **match** keyword. Please note that each matching arm is evaluated
+and *all possible values must be covered*:
+
+```rust
+fn main() {
+    let secret_number = get_secret_number(1, 100);
+		let guess = 50;
+		// the cmp() function returns an Ordering enumeration
+		match guess.cmp(&secret_number) {
+				std::cmp::Ordering::Less => println!("The secret number is greater."),
+				std::cmp::Ordering::Greater => println!("The secret number is lower."),
+				std::cmp::Ordering::Equal => println!("Congratulations! The secret number {} is found.", guess),
+		};
+}
+```
 ---
 
-## Source code
+## Reference
 
 Material for this post is available on [GitHub](https://github.com/GuillaumeFavelier/blog_rust_basics_2).
+More infos on the [Rust documentation](https://doc.rust-lang.org)*
+
+*Next post available soon.*
