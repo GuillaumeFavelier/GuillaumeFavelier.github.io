@@ -92,7 +92,7 @@ fn strip_line(line: &mut String) {
 }
 ```
 
-Multiple instruction branches can be chained with `else if` and `else`:
+Multiple instruction branches can be chained together with the keywords `else if` and `else`:
 
 ```
 fn main() {
