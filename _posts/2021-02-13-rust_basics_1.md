@@ -104,3 +104,6 @@ To build the optimized/release target, enter:
 ```sh
 cargo build --release
 ```
+---
+
+Material for this project are available on [GitHub](https://github.com/GuillaumeFavelier/blog_rust_basics_1).
