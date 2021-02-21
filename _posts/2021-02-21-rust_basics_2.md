@@ -72,6 +72,7 @@ fn main() {
     println!("The secret number is {}.", secret_number);
 }
 ```
+
 ---
 
 ## Control Flow
@@ -134,6 +135,7 @@ fn main() {
 >     Equal,
 > }
 > ```
+
 ---
 
 ## Reference
