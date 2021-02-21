@@ -50,9 +50,11 @@ fn get_secret_number(nmin: i32, nmax: i32) -> i32 {
 
 > `rand` is an external package so the `[dependencies]` section of the `Cargo.toml` configuration file needs
 > to be updated like so:
-> > ...
-> > [dependencies]
-> > rand = "0.6.0"
+> ```
+> ...
+> [dependencies]
+> rand = "0.6.0"
+> ```
 
 Please note that in this syntax, the semicolon `;` is removed to prevent the expression to become a 
 statement.
