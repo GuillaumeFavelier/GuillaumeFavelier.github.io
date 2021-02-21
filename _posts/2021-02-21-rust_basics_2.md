@@ -126,6 +126,14 @@ fn main() {
     };
 }
 ```
+> An `Enum` in its simplest form holds a set of mutually exclusive values:
+> ```rust
+> Enum Ordering {
+>     Less,
+>     Greater,
+>     Equal,
+> }
+> ```
 ---
 
 ## Reference
