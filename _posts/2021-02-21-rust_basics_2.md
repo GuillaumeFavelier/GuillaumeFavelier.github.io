@@ -56,7 +56,7 @@ fn get_secret_number(nmin: i32, nmax: i32) -> i32 {
 }
 ```
 
-Please note that in this syntax, the semicolon `;` is removed to prevent the expression to become a 
+Please note that with this syntax, the semicolon `;` is removed to prevent the expression to become a 
 statement.
 
 Here is a complete example:
