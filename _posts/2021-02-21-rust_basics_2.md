@@ -44,7 +44,7 @@ can be modified as follows:
 ```rust
 fn get_secret_number(nmin: i32, nmax: i32) -> i32 {
     use rand::Rng;
-    // gen_range() is inclusive of nmin but exclusive of nmax
+    // gen_range(low, high) is inclusive of low but exclusive of high
     rand::thread_rng().gen_range(nmin, nmax + 1)
 }
 ```
