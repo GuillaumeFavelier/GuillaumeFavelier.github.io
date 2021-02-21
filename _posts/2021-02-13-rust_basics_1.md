@@ -106,4 +106,4 @@ cargo build --release
 ```
 ---
 
-Material for this project is available on [GitHub](https://github.com/GuillaumeFavelier/blog_rust_basics_1).
+Material for this post is available on [GitHub](https://github.com/GuillaumeFavelier/blog_rust_basics_1).
