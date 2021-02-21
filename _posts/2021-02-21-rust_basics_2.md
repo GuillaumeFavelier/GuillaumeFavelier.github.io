@@ -72,6 +72,7 @@ fn main() {
     println!("The secret number is {}.", secret_number);
 }
 ```
+---
 
 ## Source code
 
