@@ -117,13 +117,13 @@ and *all possible values must be covered*:
 ```rust
 fn main() {
     let secret_number = get_secret_number(1, 100);
-		let guess = 50;
-		// the cmp() function returns an Ordering enumeration
-		match guess.cmp(&secret_number) {
-				std::cmp::Ordering::Less => println!("The secret number is greater."),
-				std::cmp::Ordering::Greater => println!("The secret number is lower."),
-				std::cmp::Ordering::Equal => println!("Congratulations! The secret number {} is found.", guess),
-		};
+    let guess = 50;
+    // the cmp() function returns an Ordering enumeration
+    match guess.cmp(&secret_number) {
+        std::cmp::Ordering::Less => println!("The secret number is greater."),
+        std::cmp::Ordering::Greater => println!("The secret number is lower."),
+        std::cmp::Ordering::Equal => println!("Congratulations! The secret number {} is found.", guess),
+    };
 }
 ```
 ---
