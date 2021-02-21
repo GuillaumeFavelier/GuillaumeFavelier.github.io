@@ -50,7 +50,7 @@ Then create a source file called `main.rs`:
 
 ```rust
 fn main() {
-	println!("Hello, world!");
+    println!("Hello, world!");
 }
 ```
 

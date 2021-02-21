@@ -17,7 +17,7 @@ A good example of a simple function is in the `hello_world` project described in
 
 ```rust
 fn main() {
-	println!("Hello, world!");
+    println!("Hello, world!");
 }
 ```
 
@@ -68,8 +68,8 @@ fn get_secret_number(nmin: i32, nmax: i32) -> i32 {
 }
 
 fn main() {
-  let secret_number = get_secret_number(1, 100); // function call here!
-	println!("The secret number is {}.", secret_number);
+    let secret_number = get_secret_number(1, 100); // function call here!
+    println!("The secret number is {}.", secret_number);
 }
 ```
 
