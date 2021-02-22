@@ -4,7 +4,7 @@
     detail: INRIA
     i18n: company_name
   desc:
-    detail: Overview of 3D visualization packages in Python for the migration of the open-source project MNE-Python to modern tools.
+    detail: Overview of 3D visualization packages for the migration of the open-source project MNE-Python to modern tools.
     i18n: company_desc
   date:
     detail: Dec. 2018 - Now
