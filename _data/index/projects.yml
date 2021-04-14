@@ -6,21 +6,28 @@
   gh_user: pyvista
   repo: pyvista
   img: /static/assets/img/landing/pyvista.png
-  desc: 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)
+  desc: 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK).
+
+- name: PyVistaQt
+  i18n: pyvistaqt
+  gh_user: pyvista
+  repo: pyvistaqt
+  img: /static/assets/img/landing/pyvista.png
+  desc: Qt embedding of PyVista based on QtPy.
 
 - name: MNE-Python
   i18n: mne-python
   gh_user: mne-tools
   repo: mne-python
   img: /static/assets/img/landing/mne.png
-  desc: MEG + EEG Analysis and Visualization
+  desc: MEG + EEG Analysis and Visualization.
 
 - name: TTK
   i18n: ttk
   gh_user: topology-tool-kit
   repo: ttk
   img: /static/assets/img/landing/ttk.png
-  desc: Topological Data Analysis and Visualization
+  desc: Topological Data Analysis and Visualization.
 
 - name: BlockBuilder
   i18n: blockbuilder
