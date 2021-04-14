@@ -1,6 +1,13 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: MNE-Python
+  i18n: mne-python
+  gh_user: mne-tools
+  repo: mne-python
+  img: /static/assets/img/landing/mne.png
+  desc: MEG + EEG Analysis and Visualization.
+
 - name: PyVista
   i18n: pyvista
   gh_user: pyvista
@@ -14,13 +21,6 @@
   repo: pyvistaqt
   img: /static/assets/img/landing/pyvista.png
   desc: Qt embedding of PyVista based on QtPy.
-
-- name: MNE-Python
-  i18n: mne-python
-  gh_user: mne-tools
-  repo: mne-python
-  img: /static/assets/img/landing/mne.png
-  desc: MEG + EEG Analysis and Visualization.
 
 - name: TTK
   i18n: ttk
