@@ -151,7 +151,7 @@ fn main() {
 }
 ```
 
-Or though the items of a `Collection`:
+Or through the items of a `Collection`:
 
 ```rust
 fn main() {
